@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "createWindow.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo.png"
+   },
+   "description": "Udemy downloader extension. ",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAushb2p3j2c7koyt+8pOC+FDm2dTn9/Hpzfwd+/HpMnRaVlVjNBY+Xocln8pVCpddfAkdG393tPn518Z1v05TXNLwQeiEYv0MG24C430jZFG+StpPwzYKJkBNOMSEdwD8jCBHc+r3MqufrCVi3/u0R7lCSvHRJ1uGJwZQ5M5nI/BXYMe7PnQt8qEJvd679SeJYWJn0SlGSPHjSZ1fCljha2MnYzz5giaiA3g1AQabiXWi3n6Xg7BwqYMWs+sdP9Lc4wmPjwC6b/hjh9c8rcDWAOJ47L60hCcDE3cQ94h413um3TDD4LPWZ1dgzKQfpKQimGxHBBZqDWGHWVJpS/YgZwIDAQAB",
+   "manifest_version": 2,
+   "name": "Udemy Downloader",
+   "permissions": [ "*://*.udemy.com/*", "downloads", "downloads.shelf", "cookies" ],
+   "short_name": "Udemy download",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1"
+}
